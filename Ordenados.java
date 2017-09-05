@@ -42,8 +42,7 @@ public class Ordenados
     else
       menor = no3;
 
-
     mitad = (no1+no2+no3)-(mayor + menor);
-    System.out.printf("El numero mayor es %f.%n el que se encuentra en medio es %f.%n y el menor es %f.%n",mayor, mitad, menor);
+    System.out.printf("El numero menor es %f.%n el que se encuentra en medio es %f.%n y el mayor es %f.%n",menor, mitad, mayor);
   }
 }
