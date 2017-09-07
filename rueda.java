@@ -18,7 +18,7 @@ public class rueda
   System.out.println("Escriba el diametro");
   diametro = lectura.nextDouble();
 
-  fi(no1, no2, no3, no4, grosor, diametro);
+  fi(grosor, diametro, no1, no2, no3, no4);
 }
 
 public static void fi(double grosor, double diametro, double no1, double no2, double no3, double no4)
