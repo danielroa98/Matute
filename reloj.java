@@ -5,7 +5,7 @@ public class reloj
   public static void main(String[] args)
   {
     Scanner lectura = new Scanner(System.in);
-    int hora, min, sec, horasec, minsec,doce,distancia1,distancia2,suma;
+    int hora, min, sec, horasec, minsec, doce, distancia1, distancia2, suma;
 
     System.out.println("Inserta la hora en formato de 24 horas");
     hora = lectura.nextInt();
@@ -16,7 +16,7 @@ public class reloj
     System.out.println("Inserta los segundos");
     sec = lectura.nextInt();
 
-    horasec = hora * 360;
+    horasec = hora * 3600;
     minsec = min * 60;
     doce= 43200;
     suma = horasec + minsec + sec;
@@ -32,8 +32,16 @@ public class reloj
       distancia2= suma-doce;
       System.out.printf("El tiempo transcurrido desde la ultima rotacion de doce horas es %d segundos. %n",distancia2);
 
-
+/*
+C:\Users\danie\Favorites\Programacion\Matute>java reloj
+Inserta la hora en formato de 24 horas
+16
+Inserta los minutos
+18
+Inserta los segundos
+54
+El tiempo transcurrido desde la ultima rotacion de doce horas es 15534 segundos.
+*/
     }
-
   }
 }
