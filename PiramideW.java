@@ -1,9 +1,3 @@
-/*
-Piramide con while
-Juan Francisco Gortarez Ricardez//Humberto Reynoso G.//Daniel Roa//
-Fundamentos de Programación
-*/
-
 import java.util.Scanner;
 
 public class PiramideW
@@ -17,7 +11,7 @@ public class PiramideW
     System.out.println("Ingresa un numero");
     n=lectura.nextInt();
 
-    while(contador<=n-1) //controla el largo de cada linea
+    while(contador<=n-1)
     {
       contador++;
       System.out.printf("%d%n", contador);
@@ -33,6 +27,7 @@ public class PiramideW
     {
       System.out.println("");
 
+
     for (p=1;p<=g ;p++ ) {
 
       System.out.printf("%d",p);
@@ -41,19 +36,17 @@ public class PiramideW
     }
     }
     System.out.println("");
+
+    /*
+    C:\Users\danie\Favorites\Programacion\Matute>java PiramideW
+    Ingresa un numero
+    3
+    1
+    12
+    123
+    123
+    12
+    1
+    */
   }
-  /* MacBook-Pro-de-Juan-8:Programacion juanfra$ java PiramideW
-Ingresa un numero
-5
-1
-12
-123
-1234
-12345
-12345
-1234
-123
-12
-1
-*/
 }
